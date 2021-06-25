@@ -1,6 +1,5 @@
 
 Installation 
 * Install `nixOS` - https://nixos.org/
-* `nix build`
-* `nix run`
+* `nix-shell`
 * Do the stuffs
