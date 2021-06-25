@@ -4,8 +4,7 @@ stdenv.mkDerivation rec {
     name = "env";
     env = buildEnv { name = name; paths = buildInputs; };
     buildInputs = [
-        idris2
+        idris
         git
-        python3
     ];
 }
